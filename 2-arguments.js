@@ -6,5 +6,5 @@ const args = function (...days) {
     console.log("Argument found");
   }
 };
-// args();
+args();
 args(1);
