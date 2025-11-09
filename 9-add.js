@@ -3,5 +3,4 @@ function add(a, b) {
 }
 
 add();
-// add(4, 85);
-// add(-4, 93);
+add(4, 85);
