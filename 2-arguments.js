@@ -1,5 +1,5 @@
 const noArguments = function () {
-  console.log("i have no arguments in this file");
+  console.log("No argument");
 };
 
 noArguments();
