@@ -9,3 +9,4 @@ const args = function (...days) {
   }
 };
 args();
+args(1);
