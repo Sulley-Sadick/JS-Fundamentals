@@ -1,18 +1,13 @@
 // Function with no arguments
-const noArguments = function () {
-  console.log("No argument");
+const args = function (...days) {
+  if (days.length === 0) {
+    console.log("No argument");
+  } else if (days.length === 1) {
+    console.log("Argument found");
+  } else {
+    console.log("Arguments found");
+  }
 };
-
-noArguments();
-
-const oneArguments = function () {
-  console.log("Argument found");
-};
-
-oneArguments();
-
-const threeArguments = function () {
-  console.log("Arguments found");
-};
-
-oneArguments();
+args();
+args(1);
+args(1, 3);
