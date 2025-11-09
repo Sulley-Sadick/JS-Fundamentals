@@ -4,3 +4,8 @@ const noArguments = function () {
 };
 
 noArguments();
+
+const oneArguments = function (arg) {
+  console.log("Arguments found");
+  console.log(`Arguments found ${arg}`);
+};
