@@ -1,7 +1,3 @@
-const multiLanguages = ["C", "Python", "JavaScript"];
+const arr = ["C is fun", "Python is cool", "JavaScript is cool"];
 
-const printMessage = function (...languages) {
-  languages.forEach((language, index) => console.log(`${language}`));
-};
-
-printMessage(...multiLanguages);
+arr.forEach((value) => console.log(value));
