@@ -5,9 +5,14 @@ const noArguments = function () {
 
 noArguments();
 
-const oneArguments = function (arg) {
-  console.log("Arguments found");
-  console.log(`Arguments found ${arg}`);
+const oneArguments = function () {
+  console.log("Argument found");
 };
 
-oneArguments(1);
+oneArguments();
+
+const threeArguments = function () {
+  console.log("Arguments found");
+};
+
+oneArguments();
