@@ -1,6 +1,9 @@
+const addArgv = process.argv.slice(2);
+
 function add(a, b) {
-  console.log(a + b);
+  // the plus(+) operator convert a string into a number
+  console.log(+a + +b);
 }
 
-add();
-add(4, 85);
+// (...) is called the spread operator, it is used to unpack array elements into separate values
+add(...addArgv);
